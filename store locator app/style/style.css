@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#map {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    font-size: 80px;
+    color: #333;
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bold;
+    top: 100px;
+    left: 100px;
+}
+
+.search-container {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color: #454e53;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    color: white;
+}
+
+.search i {
+    font-size: 25px;
+    color: white;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.store-list-container {
+    position: absolute;
+    background: white;
+    width: 400px;
+    z-index: 100;
+    top: 320px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 0px;
+    display: flex;
+}
+
+.store-address {
+    font-size: 21px;
+    color: #154c4c;
+    margin-top: 30px;
+}
+
+.store-phone-number {
+    color: #b5adad;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.store-address span {
+    display: block;
+}
+
+.stores-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.store-container {
+    border-bottom: 1px solid#979797;
+    cursor: pointer;
+}
+
+.store-container-background {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all 0.2 ease-in-out;
+}
+
+.store-container-background:hover {
+    background-color: #ccc;
+}
+
+.store-number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: #454e53;
+    color: #b5adad;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.store-number-container {
+    display: flex;
+    align-items: center;
+}
+
+.store-info-container {
+    flex-grow: 1
+}
+
+#signame {
+    font-size: 30px;
+    padding: 60px;
+    color: darkgray;
+}
+
+.signature {
+    z-index: 50;
+    padding: 40px;
+    background: radial-gradient(black, transparent);
+    color: burlywood;
+    float: left;
+    border-radius: 30px;
+    top: 90%;
+    position: relative;
+}
+
+.gm-style-iw-d {
+    overflow: scroll;
+    max-height: 743px;
+    background: mintcream;
+    font-size: 20px;
+}
